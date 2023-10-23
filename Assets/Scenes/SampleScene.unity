@@ -611,6 +611,7 @@ MonoBehaviour:
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  jumpForce: 3
   controller: {fileID: 1190139680}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
