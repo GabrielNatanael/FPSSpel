@@ -10,4 +10,14 @@ public class HitScanWeapon : Weapon
     {
         
     }
+    public override void Fire()
+    {
+        if(!base.Fire())
+        {
+            return false;
+        }
+        base.Fire();
+
+        return true;
+    }
 }
