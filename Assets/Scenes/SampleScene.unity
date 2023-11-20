@@ -816,14 +816,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab38200b02102964f9fa45b2be3662e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allHeldWeapons: []
+  currentWeapon: {fileID: 0}
   speed: 12
-  gravity: -18
+  gravity: -60
   groundCheck: {fileID: 1029069820}
   groundDistance: 0.4
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  jumpForce: 3
+  jumpForce: 4
+  scrollWeaponSwapBreakpoint: 1
   controller: {fileID: 1190139680}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
