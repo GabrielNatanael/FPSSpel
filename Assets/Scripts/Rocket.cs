@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Rocket : Projectile
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Init(Vector3 aSpawnPosition, Vector3 aAimPosition)
     {
-        
+        base.Init(aSpawnPosition, aAimPosition);
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-        
+        base.Update();
+        if(DetonationTime > 0)
+        {
+            return;
+        }
+        transform.position += AimDirection.normalized * MovementSpeed * Time.deltaTime;
+    
     }
 }
