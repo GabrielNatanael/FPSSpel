@@ -1350,11 +1350,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1412120271556637968, guid: b62ca8370b9cb884fa2223f0522f0b1f,
-        type: 3}
-      propertyPath: mouseSensitivity
-      value: 400
-      objectReference: {fileID: 0}
     - target: {fileID: 1752765535369387963, guid: b62ca8370b9cb884fa2223f0522f0b1f,
         type: 3}
       propertyPath: m_Name
@@ -1444,6 +1439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422833378618959525, guid: b62ca8370b9cb884fa2223f0522f0b1f,
+        type: 3}
+      propertyPath: Ammunition
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4422833378618959525, guid: b62ca8370b9cb884fa2223f0522f0b1f,
         type: 3}

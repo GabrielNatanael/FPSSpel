@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbf08d7d4b70dac46842cd3065659529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myPlayerMovement: {fileID: 0}
   AvailableWeapons:
   - {fileID: 6668182480784128660}
   - {fileID: 4422833378618959525}
@@ -313,7 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9b4db1f3b341242b6f8b327fe208d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 600
   playerBody: {fileID: 9069699332693095964}
 --- !u!1 &7102498285158189135
 GameObject:
@@ -467,7 +468,7 @@ PrefabInstance:
         type: 3}
       propertyPath: HitParticle
       value: 
-      objectReference: {fileID: 2105500934416650350}
+      objectReference: {fileID: 0}
     - target: {fileID: 5135803726542192816, guid: 21be3f9d0d56b714eab8f81bb8f0110d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -569,12 +570,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21be3f9d0d56b714eab8f81bb8f0110d, type: 3}
---- !u!198 &2105500934416650350 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1631041927120130900, guid: 21be3f9d0d56b714eab8f81bb8f0110d,
-    type: 3}
-  m_PrefabInstance: {fileID: 836158855165231930}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4422833378618959525 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3961951105968579999, guid: 21be3f9d0d56b714eab8f81bb8f0110d,
